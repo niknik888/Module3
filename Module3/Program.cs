@@ -15,6 +15,7 @@ class MainClass
         Console.WriteLine($"Do I have a pet? {myPet}");
         Console.WriteLine($"My shoe size is {myLegSize}");
 
+        Console.WriteLine($"Int takes value from {int.MinValue} to {int.MaxValue}");
 
         Console.ReadKey();
     }
